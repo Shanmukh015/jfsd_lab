@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+   "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.klu.Lab_1.Student" >
+        <id name="id" />
+        <property name="name" />
+        <property name="gender" />
+        <property name="department" />
+        <property name="program" />
+        <property name="dob" />
+        <property name="contact" />
+        <property name="graduated" />
+        <property name="cgpa" />
+     </class>
+</hibernate-mapping>
